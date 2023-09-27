@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: #e8e6e7;
+    font-family: 'Julius Sans One', sans-serif;;
+}
+
+
+header{
+    padding: 20px 70px;
+    background-color: #D80000;
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+.spfclogo{
+    Width: 102px;
+    Height: 42px;
+    Top: -334px;
+    Left: -559px;
+    font-family: 'Irish Grover', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+
+/* .navigation .logo{
+    width: 50px;
+} */
+
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+
+.navigation ul li a{
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.navigation ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/*Main*/
+
+/*  */
+
+.main-img{
+  
+    z-index: 100;
+}
+.main-img img{
+    width: 500px;
+    transform: none;
+}
+
+#soberano{
+    display: flex;
+    margin: -13rem;
+    margin-left: -7rem;
+    margin-top: -9rem;
+    font-size: 52px;
+    position: inherit;
+    top: 14px;
+    font-family: 'Jacques Francois', serif;
+
+}
+
+#texto{
+    left: 926px;
+    width: 377px;
+    top: 353px;
+    position: absolute;
+    margin-top: -113px;
+    margin-left: -9px;
+    font-size: 17px;
+}
+
+#imagemC{
+    width: 400px;
+    margin-top: 156px;
+    margin-left: 70px;
+}
+
+
+#titulos{
+    display: flex;
+    margin: 67rem;
+    margin-top: -455px;
+    font-size: 44px;
+    position: inherit;
+}
+
+#titulosst{
+    left: 938px;
+    width: 507px;
+    top: 55rem;
+    position: absolute;
+    margin-top: -113px;
+    margin-left: -9px;
+    font-size: 13px;
+}
+
+
+#hino{
+    margin-top: -32rem;
+    margin-left: 38rem;
+}
+
+iframe{
+    margin-left: 27rem;
+}
+
+footer{
+    text-align: center;
+}
+
+p{
+        font-family: 'Kite One', sans-serif;
+
+}
+
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 25rem;
+}
