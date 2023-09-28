@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: #ffffff;
+} 
+
+#camisetas{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    padding: 20px 70px;
+    background: #000052;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+i{
+    font-family: 'Dancing Script', cursive;
+    color:#b8b7b7;
+    margin: 58rem;
+    font-size: 1.8rem;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation .logo{
+    width: 50px;
+}
+
+.navigation ul li a{
+    color: #b8b7b7;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navigation ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.navigation .check{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+h3{
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+ 
+}
+
+input,button{
+    height:39px;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+  
+  
+input{
+    background: #dadada;
+    border: 0;
+    margin-bottom: 2px;
+}
+  
+textarea{
+    background: #dadada;
+    border: 0;
+    margin-bottom: 2px;
+}
+
+button{
+    background: #000052;
+    border: 1px solid #4d4d4d;
+    color: #e4e4e4;
+    margin: 20px 0;
+    margin-left: 76px;
+    cursor: pointer;
+    font-size: initial;
+}
+
+
+footer{
+    background-color: #000052;
+}
+
+  ::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #b7f3ff;
+    border-radius: 35px;
+}

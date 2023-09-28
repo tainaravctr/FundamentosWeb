@@ -3,54 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personalizar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Julius+Sans+One&display=swap" rel="stylesheet">
     <title>Personalizar</title>
 </head>
 <body>
 
-    <ul>
-        <li>  
-            <a href="ecomerce.html" target="_blank"> Home</a> 
-        </li>
+    <header>
+        <nav class="navigation">
+            <a href="#"><h1><i>StyleChic</i></h1></a>
+            <ul>
+                <li>  
+                    <a href="ecomerce.html"> Home</a> 
+                </li>
+    
+    
+                <li>
+                    <a href="tabelaDeValores.html" target="_blank">Valores</a>
+                </li>
+    
+                <li>  
+                    <a href="personalizar.html" target="_blank"> Personalizar</a> 
+                </li>
+            </ul>
+        </nav>
+    </header>   
 
-
-        <li>
-            <a href="tabelaDeValores.html" target="_blank">Valores</a>
-        </li>
-
-        <li>  
-            <a href="personalizar.html"> Personalizar</a> 
-        </li>
-    </ul>
-
-    <h1><i>StyleChic</i></h1>
-
+    <br>
 
     <h3>Responda o formulário sobre a personalização do seu item :)</h3>
 
-    <form>
-        <label for="Nome"> Nome:</label> <br>
-         <input type="text" id="name">
-     </form>
- 
-     <br>
-     <br>
- 
-     <form>
-        <label for="email"> E-mail:</label> <br>
-         <input type="email" id="name">
-     </form>
- 
-     <br>
-     <br>
- 
-     <form>
-        <label for="assunto"> Como você gostaria de personalizar?</label> <br>
-         <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
- 
 
-         <footer>
-            <p>Desenvolvido por Tainara Victoria</p>
-            <p>Copyroght 2023</p>
-        </footer>
+    <div class="formulario">
+        <form>
+            <label for="Nome"> Nome:</label> <br>
+            <input type="text" id="name">
+         </form>
+     
+         <br>
+         <br>
+     
+         <form>
+            <label for="email"> E-mail:</label> <br>
+            <input type="email" id="name">
+         </form>
+     
+         <br>
+         <br>
+     
+         <figure>
+            <label for="assunto"> Como você gostaria de personalizar?</label> <br>
+            <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
+            <figcaption><button><a href="personalizar.html"></a>Personalizar</button></figcaption>
+        </figure>
+        
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer style="
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+">
+
+        <p>Desenvolvido por Tainara Victoria <br></p>
+            <p>Copyright 2023</p>
+    </footer>
+
+
+
 </body>
 </html>
