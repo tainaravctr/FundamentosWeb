@@ -35,11 +35,31 @@
 
     <h3>Responda o formulário sobre a personalização do seu item :)</h3>
 
+    <script>
+        function validar(){
+            if(document.personalizarb.nome.value==""){
+                window.alert("Voce deve preencher o campo nome.");
+                document.personalizarb.nome.focus();
+                return false;
+            }
+            if(document.personalizarb.email.value==""){
+                window.alert("Voce deve preencher o campo email.");
+                document.personalizarb.email.focus();
+                return false;
+            }
+            if(document.personalizarb.assunto.value==""){
+                window.alert("Voce deve preencher o campo 'Como você gostaria de personalizar?'");
+                document.personalizarb.assunto.focus();
+                return false;
+            }
+        }
+    </script>
+
 
     <div class="formulario">
-        <form>
+        <form name="personalizarb">
             <label for="Nome"> Nome:</label> <br>
-            <input type="text" id="name">
+            <input type="text" id="name" name="nome">
          </form>
      
          <br>
@@ -47,7 +67,7 @@
      
          <form>
             <label for="email"> E-mail:</label> <br>
-            <input type="email" id="name">
+            <input type="email" id="name" name="email">
          </form>
      
          <br>
@@ -56,7 +76,7 @@
          <figure>
             <label for="assunto"> Como você gostaria de personalizar?</label> <br>
             <textarea name="assunto" id="assunto" cols="40" rows="5"></textarea>
-            <figcaption><button><a href="personalizar.html"></a>Personalizar</button></figcaption>
+            <figcaption><button><a href="personalizar.html"></a>Personalizar</button onclick="validar();"></figcaption>
         </figure>
         
     </div>
